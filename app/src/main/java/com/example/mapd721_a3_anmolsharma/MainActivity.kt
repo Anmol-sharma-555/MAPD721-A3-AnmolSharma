@@ -29,24 +29,16 @@ class MainActivity : ComponentActivity() {
                         val intent = Intent(this, Class.forName("com.example.mapd721_a3_anmolsharma.$activityName"))
                         startActivity(intent)
                     }
-//                    Greeting("Android")
                 }
             }
         }
     }
 }
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun DefaultPreview() {
     MAPD721A3AnmolSharmaTheme {
-        Greeting("Android")
     }
 }

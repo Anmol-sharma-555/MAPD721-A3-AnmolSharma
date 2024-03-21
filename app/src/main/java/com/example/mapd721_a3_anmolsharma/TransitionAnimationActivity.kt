@@ -82,7 +82,7 @@ fun RocketControlScreen() {
                 Text("Launch")
             }
             Button(onClick = { rocketDirection = 2f }) {
-                Text("Descent")
+                Text("Descend")
             }
         }
 

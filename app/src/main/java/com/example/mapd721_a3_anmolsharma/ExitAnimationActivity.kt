@@ -66,7 +66,7 @@ class ExitAnimationActivity : ComponentActivity() {
 }
 
 @Composable
-fun EnterExitAnimation() {
+fun EnterExitAnimation() {     
     // Remember the animation state
     var isEntering by remember { mutableStateOf(true) }
 

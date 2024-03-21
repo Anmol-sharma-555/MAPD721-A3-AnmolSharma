@@ -35,27 +35,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-//@Composable
-//fun CenteredButtons(onButtonClick: (String) -> Unit) {
-//    Column(
-//        modifier = Modifier.fillMaxSize(),
-//        verticalArrangement = Arrangement.Center,
-//        horizontalAlignment = Alignment.CenterHorizontally
-//    ) {
-//        Button(onClick = { onButtonClick("Activity1") }) {
-//            Text("Go to Activity 1")
-//        }
-//        Button(onClick = { onButtonClick("Activity2") }) {
-//            Text("Go to Activity 2")
-//        }
-//        Button(onClick = { onButtonClick("Activity3") }) {
-//            Text("Go to Activity 3")
-//        }
-//        Button(onClick = { onButtonClick("Activity4") }) {
-//            Text("Go to Activity 4")
-//        }
-//    }
-//}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(

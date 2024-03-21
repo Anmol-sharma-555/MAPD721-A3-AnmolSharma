@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MAPD721-A3-AnmolSharma</string>
+    <string name="title_activity_transition_animation">TransitionAnimationActivity</string>
+    <string name="title_activity_scale_animation">ScaleAnimationActivity</string>
+    <string name="title_activity_infinite_animation">InfiniteAnimationActivity</string>
+    <string name="title_activity_exit_animation">ExitAnimationActivity</string>
+</resources>
